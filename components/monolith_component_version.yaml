@@ -8,7 +8,7 @@ spec:
   version:
     semver: ">=v1.3.0"
   repository:
-    url: ghcr.io/phoban01
+    url: ghcr.io/mayankraipure12/phoban01
     secretRef:
       name: creds
   verify:
