@@ -1,5 +1,5 @@
 name: phoban.io/monolith
-version: v1.0.0
+version: v1.0.1
 provider:
   name: weaveworks
 resources:
