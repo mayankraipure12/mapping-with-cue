@@ -13,7 +13,7 @@ spec:
     secretRef:
       name: creds
   verify:
-  - name: default
+  - name: alice
     publicKey:
       secretRef:
         name: alice-publickey1
