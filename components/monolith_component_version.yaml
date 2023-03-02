@@ -2,13 +2,14 @@ apiVersion: delivery.ocm.software/v1alpha1
 kind: ComponentVersion
 metadata:
   name: monolith
+  namespace: ocm-system
 spec:
   interval: 10m0s
   component: phoban.io/monolith
   version:
     semver: "v1.0.1"
   repository:
-    url: ghcr.io/mayankraipure12/phoban01
+    url: ghcr.io/mayankraipure12
     secretRef:
       name: creds
   verify:
