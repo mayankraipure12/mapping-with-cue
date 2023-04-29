@@ -31,10 +31,10 @@ resources:
       type: ociArtifact
       imageReference: redis:7.0.8
   - name: deployment
-    type: PlainText
+    type: Directory
     input:
-      type: file
-      path: deployment.yaml
+      type: dir
+      path: "manifests"
       compress: true
   - name: config
     type: PlainText
